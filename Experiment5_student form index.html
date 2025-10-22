@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registeration Form </title>
+</head>
+<body>
+    <h1 align="center">Student Registeration Form</h1>
+    <hr>
+    <form  method="post" action="submit.html">
+        <label > Full name</label>
+        <input type="name" name="fullname"
+        placeholder="Enter your full name" required>
+        <br><br>
+        <label >Email:</label>
+        <input type="Email" name="email"
+        placeholder="Enter your   email" required>
+        <br><br>
+         <label >Password:</label>
+        <input type="password" name="password"
+        placeholder="Enter your password" required>
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" required>Male
+        <input type="radio" name="gender" value="female" required>female
+        <input type="radio" name="gender " value="other" required>other
+        <br><br>
+        <label for="Course">Course:</label>
+        <select name="Course " required>
+            <option value="" disable selected >Select your course</option>
+            <option value="BCA">BCA</option>
+            <option value="B.TECH">B.TECH</option>
+            <option value="M.TECH">M.TECH</option>
+        </select>
+         <br> <br>
+         <label > Contact No:</label>
+        <input type="text" name="Contact"
+        placeholder="enter phone number" required>
+         
+        <br><br>
+        <label >Address</label>
+        <textarea name="Address" id="address" placeholder="enter your address" required ></textarea> 
+    <br><br>
+        <input type="Submit" value="Register">
+        <input type="Reset" value="Clear">
+        </form>
+        <hr>
+        <footer align="center">@student registeration portal </footer>
+</body>
+</html>
